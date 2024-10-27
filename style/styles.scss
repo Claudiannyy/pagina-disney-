@@ -1,0 +1,80 @@
+body {
+  cursor: url("../img/cursor.jpg"), auto;
+}
+header {
+  width: 100%;
+  background-color: #1e1e1e;
+  .menu-navegacao {
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+    font-family: Lily Script One;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44.03px;
+    height: 100px;
+    align-items: center;
+  }
+}
+.logo img {
+  width: 100%;
+  height: 40vh;
+}
+.filmes {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 20px;
+
+  img {
+    border: 5px solid #000000;
+    border-radius: 61px;
+    width: 22.063rem;
+    height: 32.063rem;
+  }
+  .filmes-nomes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px;
+    gap: 200px;
+    justify-content: center;
+  }
+}
+footer {
+  height: 15%;
+  width: 100%;
+  background: #1e1e1e;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 30px;
+  font-family: "Actor", sans-serif;
+  @media (max-width: 900px) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  p {
+    font-family: Actor;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.504rem;
+    text-align: left;
+    @media (max-width: 900px) {
+      padding: 3% 3% 0 3%;
+    }
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+  ion-icon {
+    font-size: 2.625rem;
+    color: #ffffff;
+  }
+}
