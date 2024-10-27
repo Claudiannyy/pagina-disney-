@@ -8,7 +8,7 @@ Este projeto consiste na criação de um site da disney, desenvolvido como parte
 
 O layout do projeto foi disponibilizado no Figma.
 
-![Imagem do layout](./assets/img/layout.png)
+![Imagem do layout](./img/layout.png)
 
 Este design serviu como base para a construção do site e devia ser seguido para garantir que o resultado final esteja alinhado com as especificações visuais e funcionais fornecidas do curso.
 
