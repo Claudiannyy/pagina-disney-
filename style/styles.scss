@@ -19,6 +19,7 @@ header {
 .logo img {
   width: 100%;
   height: 40vh;
+  object-fit: fill;
 }
 .filmes {
   display: flex;
@@ -29,8 +30,8 @@ header {
   img {
     border: 5px solid #000000;
     border-radius: 61px;
-    width: 22.063rem;
-    height: 32.063rem;
+    width: 100%;
+    height: 50vh;
   }
   .filmes-nomes {
     display: flex;
